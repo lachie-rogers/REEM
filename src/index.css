@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Logo {
+  background-image: url(./images/home.jpeg);
+  background-size: cover;
+  padding: 10px 10px 150px;
+}
+
+button.icon-white {
+  color: white;
+}
+
+.icon-red {
+  color: red;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-color: blue;
+  box-shadow: none;
+}
+
+.Camry {
+  background-image: url(./images/hilux.png);
+  background-size: cover;
+}
+
+.cars {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+  .cars {
+    width: 100%;
+  }
+}
+
+.full-length-bar {
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 99;
+  overflow-y: hidden;
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  float: unset;
+}
+
+@media screen and (min-width: 993px) {
+  .nav-links {
+    float: left;
+  }
+}

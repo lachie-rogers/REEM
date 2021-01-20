@@ -1,0 +1,55 @@
+Releases
+
+Sprint 1 - 0.0.1
+
+- setup boilerplate code
+- Implemented map
+- Implemented Users users/ set up auth
+- added cars to map
+- added test payment method 
+- added profile page   
+
+
+
+Sprint 2 - 0.0.2
+
+- fixed bugs from Sprint 1, added failed login, no empty parking fields, fixed broken logout
+-- redirects to temp profiles
+- Implemented seperate admin and cust navbars
+- Implemented admin
+- added ability for admin to add more cars
+- added context to static pages
+- fixed styling to be more consistent 
+- made footer be more dynamic 
+- Implemented proper bookings 
+
+Sprint 3 - 0.0.3
+
+- demo 2 fixes, added drop box for adding cars, added premade parking locations
+- Implemented auto location find
+- added odometer and last service time to admin
+- added ability for admin to remove and service cars
+- fixed alert iof browser doesnt support location
+- added ability to return cars
+
+Demo - 0.1.0
+
+- added photo upload for finished bookings
+- added ability to return cars
+- user profiles implemented fully, now shows past and present bookings
+- changed way adding locations works 
+- major backend changes implmented should now be more responsive in respond to non-func reqs
+- made it so the odometer is limited to only > numbers
+- preped for Release code cleanup and refactor 
+
+
+Final - 0.1.1
+
+- made changes from feedback, can now see a list of cars, can now see cars when not logged in
+- fixed refresh bug 
+- changes to profile styling based on feedback
+- commented and major refactors of code. 
+- updated readme
+- fixed some mobile formatting issues
+- added message on return
+- added minimum day for booking, only future. 
